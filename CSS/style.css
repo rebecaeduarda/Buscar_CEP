@@ -1,0 +1,80 @@
+* {
+      margin: 0;
+      padding: 0;
+      box-sizing: border-box;
+  }
+
+  #pesquisarCep {
+      color: #fff;
+      border: 1px solid #444;
+      padding: 10px 10px;
+      border-radius: 5px;
+  }
+
+/* TITULO PRINCIPA */
+h1 {
+    color: #FFF;
+    margin: 20px 0;
+ }
+
+/* CORPO DO SITE */
+  main {
+    display: flex;
+    min-height: 100vh;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    background-color: #967c52;
+    font-family: Arial, Helvetica, sans-serif;
+  }
+
+  /* TUDO A BAIXO FAZ PARTE DO FORMULÁRIO */
+  form {
+      padding: 50px;
+      background-color: #df8b035b;
+      border-radius: 15px;
+}
+
+ 
+label {
+      color: #fff;
+      font-size: 15px;
+      text-align: center;
+      align-items: center;
+      justify-content: center;
+      display: flex;
+}
+ 
+  input {
+      background-color: #fff;
+      border-radius: 5px;
+      height: 30px;
+      text-align: center;
+}
+ 
+  button {
+    background-color: #967c52;
+    color: #FFF;
+    border: none;
+    box-shadow: none;
+    border-radius: 10px;
+    padding: 10px;
+    font-size: 1.3em;
+    margin: 5px;
+    text-align: center;
+}
+
+
+button:hover {
+    box-shadow: 0px 0px 10px ;
+}
+
+
+.apagarConta{
+    align-items: center;
+    text-align: center;
+    justify-content: center;
+    display: flex;
+}
+
+  /* tUDO A CIMA É PARTE QUE FICA DENTRO DO FORMULÁRIO */
